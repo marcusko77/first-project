@@ -1,0 +1,19 @@
+.postContainer {
+    width: 200px;
+    height: 65px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.inputName {
+    
+
+}
+
+.inputHand {
+    margin-left: 50px;
+
+}
