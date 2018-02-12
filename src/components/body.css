@@ -1,0 +1,44 @@
+.Body {
+    
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    background-color: #f0ffff;
+}
+
+.newHandContainer {
+    width:800px;
+    margin: 20px;
+    display: flex;
+    justify-content: Center;
+    background-color:#104e8b;
+    border-radius:50px;
+    padding:5px;
+  
+   
+}
+
+input {
+    font-size:20px;
+    margin:5px;
+    border-color: black;
+    
+}
+
+.newHandContainer button {
+    margin-left: 20px;
+    background-color: 	#8b6969;
+    border-color: black;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.hands {
+    width:800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import Title from './Title/Title.js'
+import './header.css'
 
 export default class Header extends Component {
     constructor(){
@@ -24,11 +25,13 @@ export default class Header extends Component {
 
     render(){
         return(
-        <div>
+        <div className='header'>
            <Title/>
-           <h1>Las Vegas Temperature: {this.state.vegasTemp} F</h1>
-           <h2>Atlantic City Temperature: {this.state.atlanticTemp} F</h2>
-           <h3>Format example: KK is King-King. 98s is nine-eight suited. KQo is King-Queen offsuit</h3>
+           <h2>
+               <p>Las Vegas Temperature: {this.state.vegasTemp} F </p>
+                <p>Atlantic City Temperature: {this.state.atlanticTemp} F </p>
+           </h2>
+           <h3>Format example: KK is King-King. 98s is nine-eight suited. KQo is King-Queen offsuit.</h3>
 
         </div>
 

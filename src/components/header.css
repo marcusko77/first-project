@@ -1,0 +1,26 @@
+.header {
+    background-image: url('../images/photo1.jpg');
+    background-size: cover;
+    height:45vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+
+ h2  {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+p {
+    background-color:#f0ffff;
+    padding: 5px;
+}
+
+h3 {
+   background-color: #f0ffff;
+    margin-bottom: 0px;
+    padding-top: 5px;
+}

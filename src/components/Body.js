@@ -68,12 +68,14 @@ export default class Body extends Component {
         
         return(
             <div className='Body'>  
-               <div className="new_hand_container">
+               <div className="newHandContainer">
                     <input placeholder="Name"
-                           onChange={(e) => this.updateName(e)}/>
-                    <input placeholder="Formatted Favorite Hand"
-                           onChange={ (e) => this.updateHand(e)}/>
-                    <button onClick={() => this.addHand()}>Add hand</button>
+                           onChange={(e) => this.updateName(e)}
+                           value={this.state.inputName}/>
+                    <input placeholder="Hand"
+                           onChange={ (e) => this.updateHand(e)}
+                           value={this.state.inputHand}/>
+                    <button onClick={() => this.addHand()}>Add Hand</button>
                 </div>
                 <div className= 'hands'>   
                     <div>
